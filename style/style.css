@@ -18,6 +18,9 @@
 .dark-2{
     color: #474747;
 }
+.dark3{
+    color: #757575;
+}
 
 .btn-primary{
     background-color: #FD6E0A;
@@ -153,4 +156,45 @@ main section{
     font-weight: 500;
     font-size: 15px;
     color: #474747;
+}
+
+/* summary-resume-container style */
+.summary-resume-container{
+    margin: 0px 60px;
+    padding: 20px;
+    text-align: center;
+    padding: 20px
+}
+.summary-heading h3{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+}
+.summary-experience-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+.institute{
+    font-size: 12px;
+    font-weight: 500;
+}
+/* footer styles */
+footer{
+    padding: 60px 100px;
+    display: flex;
+    gap: 50px;
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 34px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: none;
 }
