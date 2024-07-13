@@ -5,7 +5,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 /* shared style */
@@ -197,4 +197,29 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding: 5px 10px;
     margin-bottom: 10px;
     border: none;
+}
+.hide{
+    display: none;
+}
+
+/* Responsive Media Query */
+@media screen and (max-width: 576px) {
+    .skills-container, .summary-resume-container, footer, .about-items, .header, .banner{
+        flex-direction: column;
+    }
+    footer, .about{
+        padding: 5px;
+    }
+    .footer-colum{
+        width: 90%;
+    }
+    .banner{
+        margin: 0;
+    }
+    .banner-containt{
+        width: 100%;
+    }
+    nav>ul>li{
+        margin: 0;
+    }
 }
