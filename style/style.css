@@ -185,7 +185,7 @@ footer{
     display: flex;
     gap: 50px;
 }
-.footer-colum{
+.footer-column{
     width: 50%;
 }
 footer input[type="text"], footer input[type="email"], footer textarea{
@@ -204,20 +204,30 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
-    .skills-container, .summary-resume-container, footer, .about-items, .header, .banner{
+    .skills-container, .summary-resume-container, footer, .about-items, .header, .banner, nav, nav > ul{
         flex-direction: column;
+        /* width: calc(100% - 20px); */
+    }
+    .about{
+        /* margin: 5px; */
     }
     footer, .about{
         padding: 5px;
     }
-    .footer-colum{
+    .footer-column{
         width: 90%;
     }
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 20px);
+    }
     .banner{
-        margin: 0;
+        margin: 5px;
     }
     .banner-containt{
         width: 100%;
+    }
+    nav >ul{
+        gap: 15px;
     }
     nav>ul>li{
         margin: 0;
